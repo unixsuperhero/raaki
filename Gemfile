@@ -11,6 +11,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 2.0.0.beta.5'
+  gem 'pry-rails', :group => :development
 end
 
 group :development do
