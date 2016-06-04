@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  starts_at: 2016-06-04 00:58:23
+  ends_at: 2016-06-04 00:58:23
+  number_of_players: 1
+  winner: one
+
+two:
+  starts_at: 2016-06-04 00:58:23
+  ends_at: 2016-06-04 00:58:23
+  number_of_players: 1
+  winner: two

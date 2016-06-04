@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  player_one: one
+  player_two: one
+  player_winner: one
+  one_choice: MyString
+  two_choice: MyString
+  in_progress: false
+
+two:
+  player_one: two
+  player_two: two
+  player_winner: two
+  one_choice: MyString
+  two_choice: MyString
+  in_progress: false
