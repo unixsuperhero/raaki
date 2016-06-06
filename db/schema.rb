@@ -28,12 +28,12 @@ ActiveRecord::Schema.define(version: 20160604134054) do
   create_table "matches", force: :cascade do |t|
     t.integer  "player_one_id"
     t.integer  "player_two_id"
-    t.integer  "player_winner_id"
+    t.integer  "winner_id"
     t.string   "one_choice"
     t.string   "two_choice"
     t.boolean  "in_progress"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
   create_table "tournament_users", force: :cascade do |t|
@@ -63,6 +63,4 @@ ActiveRecord::Schema.define(version: 20160604134054) do
     t.index ["match_id"], name: "index_users_on_match_id", using: :btree
   end
 
-  add_foreign_key "match_users", "matches"
-  add_foreign_key "match_users", "users"
 end
