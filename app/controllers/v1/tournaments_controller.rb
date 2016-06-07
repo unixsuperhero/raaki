@@ -1,4 +1,4 @@
-class TournamentsController < ApplicationController
+class V1::TournamentsController < ApplicationController
   before_action :set_tournament, only: [:show, :update, :destroy]
 
   # GET /tournaments

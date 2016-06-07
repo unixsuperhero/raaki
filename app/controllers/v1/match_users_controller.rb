@@ -1,4 +1,4 @@
-class MatchUsersController < ApplicationController
+class V1::MatchUsersController < ApplicationController
   before_action :set_match_user, only: [:show, :update, :destroy]
 
   # GET /match_users
