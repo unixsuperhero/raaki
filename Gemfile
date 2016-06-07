@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'interactor', '~> 3.0'
+gem "haml-rails", "~> 0.9"
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
