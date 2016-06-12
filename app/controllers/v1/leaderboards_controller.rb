@@ -1,4 +1,4 @@
-class V1::LeaderboardsController < ApplicationController
+class V1::LeaderboardsController < ApiController
   def index
     leaderboards = FetchLeaderboard.call
 

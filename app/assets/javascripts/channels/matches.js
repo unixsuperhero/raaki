@@ -1,7 +1,5 @@
-//= require game
-//= require self
-//= require_tree .
+//this.app = {};
 
-this.app = {};
+// var App = App || {};
 
-App.game = ActionCable.createConsumer();
+// App.game = ActionCable.createConsumer();

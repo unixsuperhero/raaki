@@ -7,3 +7,9 @@
   .container
     %h1 WELCOME TO RPS
     %p Friendly game of Rock Paper Scissors with friends in a tournament style battle.
+
+    #join_form
+      %form{onsubmit: 'return false;'}
+      %p
+        %label Nickname:
+        %button Join Game
