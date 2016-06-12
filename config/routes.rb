@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  mount ActionCable.server => '/game'
+  root to: "homes#index"
 
   namespace :v1 do
     resources :tournament_users
